@@ -1,0 +1,786 @@
+[
+  {
+    "command": "APPEND",
+    "description": "Append a value to a key"
+  },
+  {
+    "command": "AUTH",
+    "description": "Authenticate to the server"
+  },
+  {
+    "command": "BGREWRITEAOF",
+    "description": "Asynchronously rewrite the append-only file"
+  },
+  {
+    "command": "BGSAVE",
+    "description": "Asynchronously save the dataset to disk"
+  },
+  {
+    "command": "BITCOUNT",
+    "description": "Count set bits in a string"
+  },
+  {
+    "command": "BITOP",
+    "description": "Perform bitwise operations between strings"
+  },
+  {
+    "command": "BITPOS",
+    "description": "Find first bit set or clear in a string"
+  },
+  {
+    "command": "BLPOP",
+    "description": "Remove and get the first element in a list, or block until one is available"
+  },
+  {
+    "command": "BRPOP",
+    "description": "Remove and get the last element in a list, or block until one is available"
+  },
+  {
+    "command": "BRPOPLPUSH",
+    "description": "Pop a value from a list, push it to another list and return it; or block until one is available"
+  },
+  {
+    "command": "CLIENT",
+    "description": "Kill the connection of a client"
+  },
+  {
+    "command": "CLIENT",
+    "description": "Get the list of client connections"
+  },
+  {
+    "command": "CLIENT",
+    "description": "Get the current connection name"
+  },
+  {
+    "command": "CLIENT",
+    "description": "Stop processing commands from clients for some time"
+  },
+  {
+    "command": "CLIENT",
+    "description": "Instruct the server whether to reply to commands"
+  },
+  {
+    "command": "CLIENT",
+    "description": "Set the current connection name"
+  },
+  {
+    "command": "CLUSTER",
+    "description": "Assign new hash slots to receiving node"
+  },
+  {
+    "command": "CLUSTER",
+    "description": "Return the number of failure reports active for a given node"
+  },
+  {
+    "command": "CLUSTER",
+    "description": "Return the number of local keys in the specified hash slot"
+  },
+  {
+    "command": "CLUSTER",
+    "description": "Set hash slots as unbound in receiving node"
+  },
+  {
+    "command": "CLUSTER",
+    "description": "Forces a slave to perform a manual failover of its master."
+  },
+  {
+    "command": "CLUSTER",
+    "description": "Remove a node from the nodes table"
+  },
+  {
+    "command": "CLUSTER",
+    "description": "Return local key names in the specified hash slot"
+  },
+  {
+    "command": "CLUSTER",
+    "description": "Provides info about Redis Cluster node state"
+  },
+  {
+    "command": "CLUSTER",
+    "description": "Returns the hash slot of the specified key"
+  },
+  {
+    "command": "CLUSTER",
+    "description": "Force a node cluster to handshake with another node"
+  },
+  {
+    "command": "CLUSTER",
+    "description": "Get Cluster config for the node"
+  },
+  {
+    "command": "CLUSTER",
+    "description": "Reconfigure a node as a slave of the specified master node"
+  },
+  {
+    "command": "CLUSTER",
+    "description": "Reset a Redis Cluster node"
+  },
+  {
+    "command": "CLUSTER",
+    "description": "Forces the node to save cluster state on disk"
+  },
+  {
+    "command": "CLUSTER",
+    "description": "Set the configuration epoch in a new node"
+  },
+  {
+    "command": "CLUSTER",
+    "description": "Bind a hash slot to a specific node"
+  },
+  {
+    "command": "CLUSTER",
+    "description": "List slave nodes of the specified master node"
+  },
+  {
+    "command": "CLUSTER",
+    "description": "Get array of Cluster slot to node mappings"
+  },
+  {
+    "command": "COMMAND",
+    "description": "Get array of Redis command details"
+  },
+  {
+    "command": "COMMAND",
+    "description": "Get total number of Redis commands"
+  },
+  {
+    "command": "COMMAND",
+    "description": "Extract keys given a full Redis command"
+  },
+  {
+    "command": "COMMAND",
+    "description": "Get array of specific Redis command details"
+  },
+  {
+    "command": "CONFIG",
+    "description": "Get the value of a configuration parameter"
+  },
+  {
+    "command": "CONFIG",
+    "description": "Rewrite the configuration file with the in memory configuration"
+  },
+  {
+    "command": "CONFIG",
+    "description": "Set a configuration parameter to the given value"
+  },
+  {
+    "command": "CONFIG",
+    "description": "Reset the stats returned by INFO"
+  },
+  {
+    "command": "DBSIZE",
+    "description": "Return the number of keys in the selected database"
+  },
+  {
+    "command": "DEBUG",
+    "description": "Get debugging information about a key"
+  },
+  {
+    "command": "DEBUG",
+    "description": "Make the server crash"
+  },
+  {
+    "command": "DECR",
+    "description": "Decrement the integer value of a key by one"
+  },
+  {
+    "command": "DECRBY",
+    "description": "Decrement the integer value of a key by the given number"
+  },
+  {
+    "command": "DEL",
+    "description": "Delete a key"
+  },
+  {
+    "command": "DISCARD",
+    "description": "Discard all commands issued after MULTI"
+  },
+  {
+    "command": "DUMP",
+    "description": "Return a serialized version of the value stored at the specified key."
+  },
+  {
+    "command": "ECHO",
+    "description": "Echo the given string"
+  },
+  {
+    "command": "EVAL",
+    "description": "Execute a Lua script server side"
+  },
+  {
+    "command": "EVALSHA",
+    "description": "Execute a Lua script server side"
+  },
+  {
+    "command": "EXEC",
+    "description": "Execute all commands issued after MULTI"
+  },
+  {
+    "command": "EXISTS",
+    "description": "Determine if a key exists"
+  },
+  {
+    "command": "EXPIRE",
+    "description": "Set a key's time to live in seconds"
+  },
+  {
+    "command": "EXPIREAT",
+    "description": "Set the expiration for a key as a UNIX timestamp"
+  },
+  {
+    "command": "FLUSHALL",
+    "description": "Remove all keys from all databases"
+  },
+  {
+    "command": "FLUSHDB",
+    "description": "Remove all keys from the current database"
+  },
+  {
+    "command": "GEOADD",
+    "description": "Add one or more geospatial items in the geospatial index represented using a sorted set"
+  },
+  {
+    "command": "GEOHASH",
+    "description": "Returns members of a geospatial index as standard geohash strings"
+  },
+  {
+    "command": "GEOPOS",
+    "description": "Returns longitude and latitude of members of a geospatial index"
+  },
+  {
+    "command": "GEODIST",
+    "description": "Returns the distance between two members of a geospatial index"
+  },
+  {
+    "command": "GEORADIUS",
+    "description": "Query a sorted set representing a geospatial index to fetch members matching a given maximum distance from a point"
+  },
+  {
+    "command": "GEORADIUSBYMEMBER",
+    "description": "Query a sorted set representing a geospatial index to fetch members matching a given maximum distance from a member"
+  },
+  {
+    "command": "GET",
+    "description": "Get the value of a key"
+  },
+  {
+    "command": "GETBIT",
+    "description": "Returns the bit value at offset in the string value stored at key"
+  },
+  {
+    "command": "GETRANGE",
+    "description": "Get a substring of the string stored at a key"
+  },
+  {
+    "command": "GETSET",
+    "description": "Set the string value of a key and return its old value"
+  },
+  {
+    "command": "HDEL",
+    "description": "Delete one or more hash fields"
+  },
+  {
+    "command": "HEXISTS",
+    "description": "Determine if a hash field exists"
+  },
+  {
+    "command": "HGET",
+    "description": "Get the value of a hash field"
+  },
+  {
+    "command": "HGETALL",
+    "description": "Get all the fields and values in a hash"
+  },
+  {
+    "command": "HINCRBY",
+    "description": "Increment the integer value of a hash field by the given number"
+  },
+  {
+    "command": "HINCRBYFLOAT",
+    "description": "Increment the float value of a hash field by the given amount"
+  },
+  {
+    "command": "HKEYS",
+    "description": "Get all the fields in a hash"
+  },
+  {
+    "command": "HLEN",
+    "description": "Get the number of fields in a hash"
+  },
+  {
+    "command": "HMGET",
+    "description": "Get the values of all the given hash fields"
+  },
+  {
+    "command": "HMSET",
+    "description": "Set multiple hash fields to multiple values"
+  },
+  {
+    "command": "HSET",
+    "description": "Set the string value of a hash field"
+  },
+  {
+    "command": "HSETNX",
+    "description": "Set the value of a hash field, only if the field does not exist"
+  },
+  {
+    "command": "HSTRLEN",
+    "description": "Get the length of the value of a hash field"
+  },
+  {
+    "command": "HVALS",
+    "description": "Get all the values in a hash"
+  },
+  {
+    "command": "INCR",
+    "description": "Increment the integer value of a key by one"
+  },
+  {
+    "command": "INCRBY",
+    "description": "Increment the integer value of a key by the given amount"
+  },
+  {
+    "command": "INCRBYFLOAT",
+    "description": "Increment the float value of a key by the given amount"
+  },
+  {
+    "command": "INFO",
+    "description": "Get information and statistics about the server"
+  },
+  {
+    "command": "KEYS",
+    "description": "Find all keys matching the given pattern"
+  },
+  {
+    "command": "LASTSAVE",
+    "description": "Get the UNIX time stamp of the last successful save to disk"
+  },
+  {
+    "command": "LINDEX",
+    "description": "Get an element from a list by its index"
+  },
+  {
+    "command": "LINSERT",
+    "description": "Insert an element before or after another element in a list"
+  },
+  {
+    "command": "LLEN",
+    "description": "Get the length of a list"
+  },
+  {
+    "command": "LPOP",
+    "description": "Remove and get the first element in a list"
+  },
+  {
+    "command": "LPUSH",
+    "description": "Prepend one or multiple values to a list"
+  },
+  {
+    "command": "LPUSHX",
+    "description": "Prepend a value to a list, only if the list exists"
+  },
+  {
+    "command": "LRANGE",
+    "description": "Get a range of elements from a list"
+  },
+  {
+    "command": "LREM",
+    "description": "Remove elements from a list"
+  },
+  {
+    "command": "LSET",
+    "description": "Set the value of an element in a list by its index"
+  },
+  {
+    "command": "LTRIM",
+    "description": "Trim a list to the specified range"
+  },
+  {
+    "command": "MGET",
+    "description": "Get the values of all the given keys"
+  },
+  {
+    "command": "MIGRATE",
+    "description": "Atomically transfer a key from a Redis instance to another one."
+  },
+  {
+    "command": "MONITOR",
+    "description": "Listen for all requests received by the server in real time"
+  },
+  {
+    "command": "MOVE",
+    "description": "Move a key to another database"
+  },
+  {
+    "command": "MSET",
+    "description": "Set multiple keys to multiple values"
+  },
+  {
+    "command": "MSETNX",
+    "description": "Set multiple keys to multiple values, only if none of the keys exist"
+  },
+  {
+    "command": "MULTI",
+    "description": "Mark the start of a transaction block"
+  },
+  {
+    "command": "OBJECT",
+    "description": "Inspect the internals of Redis objects"
+  },
+  {
+    "command": "PERSIST",
+    "description": "Remove the expiration from a key"
+  },
+  {
+    "command": "PEXPIRE",
+    "description": "Set a key's time to live in milliseconds"
+  },
+  {
+    "command": "PEXPIREAT",
+    "description": "Set the expiration for a key as a UNIX timestamp specified in milliseconds"
+  },
+  {
+    "command": "PFADD",
+    "description": "Adds the specified elements to the specified HyperLogLog."
+  },
+  {
+    "command": "PFCOUNT",
+    "description": "Return the approximated cardinality of the set(s) observed by the HyperLogLog at key(s)."
+  },
+  {
+    "command": "PFMERGE",
+    "description": "Merge N different HyperLogLogs into a single one."
+  },
+  {
+    "command": "PING",
+    "description": "Ping the server"
+  },
+  {
+    "command": "PSETEX",
+    "description": "Set the value and expiration in milliseconds of a key"
+  },
+  {
+    "command": "PSUBSCRIBE",
+    "description": "Listen for messages published to channels matching the given patterns"
+  },
+  {
+    "command": "PUBSUB",
+    "description": "Inspect the state of the Pub/Sub subsystem"
+  },
+  {
+    "command": "PTTL",
+    "description": "Get the time to live for a key in milliseconds"
+  },
+  {
+    "command": "PUBLISH",
+    "description": "Post a message to a channel"
+  },
+  {
+    "command": "PUNSUBSCRIBE",
+    "description": "Stop listening for messages posted to channels matching the given patterns"
+  },
+  {
+    "command": "QUIT",
+    "description": "Close the connection"
+  },
+  {
+    "command": "RANDOMKEY",
+    "description": "Return a random key from the keyspace"
+  },
+  {
+    "command": "READONLY",
+    "description": "Enables read queries for a connection to a cluster slave node"
+  },
+  {
+    "command": "READWRITE",
+    "description": "Disables read queries for a connection to a cluster slave node"
+  },
+  {
+    "command": "RENAME",
+    "description": "Rename a key"
+  },
+  {
+    "command": "RENAMENX",
+    "description": "Rename a key, only if the new key does not exist"
+  },
+  {
+    "command": "RESTORE",
+    "description": "Create a key using the provided serialized value, previously obtained using DUMP."
+  },
+  {
+    "command": "ROLE",
+    "description": "Return the role of the instance in the context of replication"
+  },
+  {
+    "command": "RPOP",
+    "description": "Remove and get the last element in a list"
+  },
+  {
+    "command": "RPOPLPUSH",
+    "description": "Remove the last element in a list, prepend it to another list and return it"
+  },
+  {
+    "command": "RPUSH",
+    "description": "Append one or multiple values to a list"
+  },
+  {
+    "command": "RPUSHX",
+    "description": "Append a value to a list, only if the list exists"
+  },
+  {
+    "command": "SADD",
+    "description": "Add one or more members to a set"
+  },
+  {
+    "command": "SAVE",
+    "description": "Synchronously save the dataset to disk"
+  },
+  {
+    "command": "SCARD",
+    "description": "Get the number of members in a set"
+  },
+  {
+    "command": "SCRIPT",
+    "description": "Set the debug mode for executed scripts."
+  },
+  {
+    "command": "SCRIPT",
+    "description": "Check existence of scripts in the script cache."
+  },
+  {
+    "command": "SCRIPT",
+    "description": "Remove all the scripts from the script cache."
+  },
+  {
+    "command": "SCRIPT",
+    "description": "Kill the script currently in execution."
+  },
+  {
+    "command": "SCRIPT",
+    "description": "Load the specified Lua script into the script cache."
+  },
+  {
+    "command": "SDIFF",
+    "description": "Subtract multiple sets"
+  },
+  {
+    "command": "SDIFFSTORE",
+    "description": "Subtract multiple sets and store the resulting set in a key"
+  },
+  {
+    "command": "SELECT",
+    "description": "Change the selected database for the current connection"
+  },
+  {
+    "command": "SET",
+    "description": "Set the string value of a key"
+  },
+  {
+    "command": "SETBIT",
+    "description": "Sets or clears the bit at offset in the string value stored at key"
+  },
+  {
+    "command": "SETEX",
+    "description": "Set the value and expiration of a key"
+  },
+  {
+    "command": "SETNX",
+    "description": "Set the value of a key, only if the key does not exist"
+  },
+  {
+    "command": "SETRANGE",
+    "description": "Overwrite part of a string at key starting at the specified offset"
+  },
+  {
+    "command": "SHUTDOWN",
+    "description": "Synchronously save the dataset to disk and then shut down the server"
+  },
+  {
+    "command": "SINTER",
+    "description": "Intersect multiple sets"
+  },
+  {
+    "command": "SINTERSTORE",
+    "description": "Intersect multiple sets and store the resulting set in a key"
+  },
+  {
+    "command": "SISMEMBER",
+    "description": "Determine if a given value is a member of a set"
+  },
+  {
+    "command": "SLAVEOF",
+    "description": "Make the server a slave of another instance, or promote it as master"
+  },
+  {
+    "command": "SLOWLOG",
+    "description": "Manages the Redis slow queries log"
+  },
+  {
+    "command": "SMEMBERS",
+    "description": "Get all the members in a set"
+  },
+  {
+    "command": "SMOVE",
+    "description": "Move a member from one set to another"
+  },
+  {
+    "command": "SORT",
+    "description": "Sort the elements in a list, set or sorted set"
+  },
+  {
+    "command": "SPOP",
+    "description": "Remove and return one or multiple random members from a set"
+  },
+  {
+    "command": "SRANDMEMBER",
+    "description": "Get one or multiple random members from a set"
+  },
+  {
+    "command": "SREM",
+    "description": "Remove one or more members from a set"
+  },
+  {
+    "command": "STRLEN",
+    "description": "Get the length of the value stored in a key"
+  },
+  {
+    "command": "SUBSCRIBE",
+    "description": "Listen for messages published to the given channels"
+  },
+  {
+    "command": "SUNION",
+    "description": "Add multiple sets"
+  },
+  {
+    "command": "SUNIONSTORE",
+    "description": "Add multiple sets and store the resulting set in a key"
+  },
+  {
+    "command": "SYNC",
+    "description": "Internal command used for replication"
+  },
+  {
+    "command": "TIME",
+    "description": "Return the current server time"
+  },
+  {
+    "command": "TTL",
+    "description": "Get the time to live for a key"
+  },
+  {
+    "command": "TYPE",
+    "description": "Determine the type stored at key"
+  },
+  {
+    "command": "UNSUBSCRIBE",
+    "description": "Stop listening for messages posted to the given channels"
+  },
+  {
+    "command": "UNWATCH",
+    "description": "Forget about all watched keys"
+  },
+  {
+    "command": "WAIT",
+    "description": "Wait for the synchronous replication of all the write commands sent in the context of the current connection"
+  },
+  {
+    "command": "WATCH",
+    "description": "Watch the given keys to determine execution of the MULTI/EXEC block"
+  },
+  {
+    "command": "ZADD",
+    "description": "Add one or more members to a sorted set, or update its score if it already exists"
+  },
+  {
+    "command": "ZCARD",
+    "description": "Get the number of members in a sorted set"
+  },
+  {
+    "command": "ZCOUNT",
+    "description": "Count the members in a sorted set with scores within the given values"
+  },
+  {
+    "command": "ZINCRBY",
+    "description": "Increment the score of a member in a sorted set"
+  },
+  {
+    "command": "ZINTERSTORE",
+    "description": "Intersect multiple sorted sets and store the resulting sorted set in a new key"
+  },
+  {
+    "command": "ZLEXCOUNT",
+    "description": "Count the number of members in a sorted set between a given lexicographical range"
+  },
+  {
+    "command": "ZRANGE",
+    "description": "Return a range of members in a sorted set, by index"
+  },
+  {
+    "command": "ZRANGEBYLEX",
+    "description": "Return a range of members in a sorted set, by lexicographical range"
+  },
+  {
+    "command": "ZREVRANGEBYLEX",
+    "description": "Return a range of members in a sorted set, by lexicographical range, ordered from higher to lower strings."
+  },
+  {
+    "command": "ZRANGEBYSCORE",
+    "description": "Return a range of members in a sorted set, by score"
+  },
+  {
+    "command": "ZRANK",
+    "description": "Determine the index of a member in a sorted set"
+  },
+  {
+    "command": "ZREM",
+    "description": "Remove one or more members from a sorted set"
+  },
+  {
+    "command": "ZREMRANGEBYLEX",
+    "description": "Remove all members in a sorted set between the given lexicographical range"
+  },
+  {
+    "command": "ZREMRANGEBYRANK",
+    "description": "Remove all members in a sorted set within the given indexes"
+  },
+  {
+    "command": "ZREMRANGEBYSCORE",
+    "description": "Remove all members in a sorted set within the given scores"
+  },
+  {
+    "command": "ZREVRANGE",
+    "description": "Return a range of members in a sorted set, by index, with scores ordered from high to low"
+  },
+  {
+    "command": "ZREVRANGEBYSCORE",
+    "description": "Return a range of members in a sorted set, by score, with scores ordered from high to low"
+  },
+  {
+    "command": "ZREVRANK",
+    "description": "Determine the index of a member in a sorted set, with scores ordered from high to low"
+  },
+  {
+    "command": "ZSCORE",
+    "description": "Get the score associated with the given member in a sorted set"
+  },
+  {
+    "command": "ZUNIONSTORE",
+    "description": "Add multiple sorted sets and store the resulting sorted set in a new key"
+  },
+  {
+    "command": "SCAN",
+    "description": "Incrementally iterate the keys space"
+  },
+  {
+    "command": "SSCAN",
+    "description": "Incrementally iterate Set elements"
+  },
+  {
+    "command": "HSCAN",
+    "description": "Incrementally iterate hash fields and associated values"
+  },
+  {
+    "command": "ZSCAN",
+    "description": "Incrementally iterate sorted sets elements and associated scores"
+  }
+]
